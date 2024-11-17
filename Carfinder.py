@@ -8,15 +8,15 @@ def displayVehicles():
  file = open("availablevehicles.txt", "r")
  fileContents = file.read()
  print(fileContents)
- print("Returning to the menu in 5 seconds")
+ print("Returning to the menu in 5 seconds...")
  time.sleep(1)
- print("Returning to the menu in 4 seconds.")
+ print("Returning to the menu in 4 seconds...")
  time.sleep(1)
- print("Returning to the menu in 3 seconds..")
+ print("Returning to the menu in 3 seconds...")
  time.sleep(1)
  print("Returning to the menu in 2 seconds...")
  time.sleep(1)
- print("Returning to the menu in 1 seconds.")
+ print("Returning to the menu in 1 seconds...")
  time.sleep(1)
  print("Returning to the menu now...")
  time.sleep(1)
@@ -39,13 +39,5 @@ def menu():
     print("Thank you for using the AutoCountry Vehicle Finder, good-bye!")
     exit()
 menu()
- 
-
-if menuSelection == int("1"):
- displayVehicles()
-
-if menuSelection == int("2"):
-    print("Thank you for using the AutoCountry Vehicle Finder, good-bye!")
-    exit()
 
 # Program Complete. 
